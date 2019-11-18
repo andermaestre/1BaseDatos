@@ -1,0 +1,13 @@
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.vbprojAssemblyReference.cache
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\_1BasesDatos.Form1.resources
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\_1BasesDatos.Resources.resources
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.vbproj.GenerateResource.cache
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.vbproj.CoreCompileInputs.cache
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\bin\Debug\1BasesDatos.exe.config
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\bin\Debug\1BasesDatos.exe
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\bin\Debug\1BasesDatos.pdb
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\bin\Debug\1BasesDatos.xml
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.exe
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.xml
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\1BasesDatos.pdb
+C:\Users\andermaestre\source\repos\1BasesDatos\1BasesDatos\obj\Debug\_1BasesDatos.Form2.resources
