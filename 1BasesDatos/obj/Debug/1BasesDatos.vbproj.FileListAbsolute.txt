@@ -24,3 +24,4 @@ C:\Users\andermaestre\Desktop\git\1BaseDatos\1BasesDatos\obj\Debug\1BasesDatos.v
 C:\Users\andermaestre\Desktop\git\1BaseDatos\1BasesDatos\obj\Debug\1BasesDatos.exe
 C:\Users\andermaestre\Desktop\git\1BaseDatos\1BasesDatos\obj\Debug\1BasesDatos.xml
 C:\Users\andermaestre\Desktop\git\1BaseDatos\1BasesDatos\obj\Debug\1BasesDatos.pdb
+C:\Users\andermaestre\Desktop\git\1BaseDatos\1BasesDatos\obj\Debug\_1BasesDatos.Form3.resources

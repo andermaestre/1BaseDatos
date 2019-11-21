@@ -70,6 +70,7 @@ Public Class Form2
             Dim Concepto As String
             Dim Fecha As Date
             Dim ncuenta As Integer
+
             ncuenta = Integer.Parse(CuentaActual)
             Importe = Double.Parse(txtImporte.Text)
             Fecha = Date.Today
@@ -108,13 +109,41 @@ Public Class Form2
             Dim updSaldo As Double
             updSaldo = Double.Parse(txtTotalSaldo.Text)
 
-            consulta.CommandText = "Insert Into BaseDatos.Cuentas (SaldoActual) Values(@sal)"
+            consulta.CommandText = "Update BaseDatos.Cuentas Set SaldoActual=@sal Where @nc= NCuenta"
 
             consulta.Parameters.AddWithValue("@sal", updSaldo)
+            consulta.ExecuteNonQuery()
+
+            cn.Close()
+
         Else
             MsgBox("Caca pa ti")
         End If
 
-        cn.Close()
+
+    End Sub
+
+    Private Sub BtnConsultar_Click(sender As Object, e As EventArgs) Handles btnConsultar.Click
+        desde = CDate(txtDesde.Text)
+        hasta = CDate(txtHasta.Text)
+        SaldoAct = Double.Parse(txtTotalSaldo.Text)
+        Dim formResp As New Form3
+        formResp.ShowDialog()
+
+
+
+
+    End Sub
+
+    Private Sub BtnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        Dim result As MsgBoxResult = MsgBox("Borrar?", vbYesNo)
+        If (result = vbYes) Then
+            consulta.CommandText = "Delete From BaseDatos.Muvimientos Where NCuenta=@nc And Fecha Between @fechaIni and @fechaFin"
+
+            cn.Open()
+            consulta.ExecuteNonQuery()
+            cn.Close()
+
+        End If
     End Sub
 End Class

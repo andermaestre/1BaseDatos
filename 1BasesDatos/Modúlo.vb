@@ -6,4 +6,9 @@ Module Modúlo
     Public cn As SqlConnection = New SqlConnection(cadena)
     Public consulta As New SqlCommand
     Public dr As SqlDataReader
+
+    Public desde As Date
+    Public hasta As Date
+
+    Public SaldoAct As Double
 End Module
